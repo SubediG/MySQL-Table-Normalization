@@ -1,6 +1,10 @@
 # Project Overview
-The primary goal of this project is to clean and normalize michigan hospital readmission data, transforming it into a format that adheres to Normal Form (NF). I have used MySQL and Python as a tool to create this database. The data was downloaded from cms.gov **FOR HOSPITAL READMISSION RATE IN MICHIAN**  and initial data import to MySQL was performed using python and MySQL connector.
+The primary goal of this project is to clean and normalize **Michigan hospital readmission data**, transforming it into a format that adheres to Normal Form (NF). I have used MySQL and Python as a tool to create this database. The data was downloaded from **cms.gov** and initial data import to MySQL was performed using python and MySQL connector.
+
+**Why do we Normalize?**
+
 The normalization process ensures that the data structure minimizes redundancy and dependency, making the database more efficient for querying and updates. The transformation focuses on separating data into logical entities and breaking down multi-valued dependencies that could lead to anomalies.
+
 In this project, I utilized the PACE framework—Prepare, Analyze, Communicate, and Execute—to normalize hospital data and ensure its integrity, scalability, and efficiency for future analysis. Below is an explanation of how I applied the PACE framework to this project.
 
 Prepare: I set up the database and filtered the data to focus on relevant hospitals and readmission rates, while cleaning the data and addressing null values.
